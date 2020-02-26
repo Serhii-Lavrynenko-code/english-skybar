@@ -1,0 +1,10 @@
+/* Common */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
