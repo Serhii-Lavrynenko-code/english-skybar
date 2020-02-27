@@ -30,7 +30,40 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header */
 
+.header {
+    width: 100%;
+    padding-top: 20px;
+}
 
+.header__inner {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__svg {
+    width: auto;
+    height: 75px;
+}
 
 
 /* Nav */
+
+.header__nav {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+}
+
+.header__nav>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+    margin-right: 15px;
+
+}
